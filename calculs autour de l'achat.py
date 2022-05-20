@@ -68,7 +68,7 @@ def calcul_du_pret(pret:int = 222859, pret_taux_reduit = 15000, taux_reduit:int 
     return mensualites, prix_totaux, interets
 
 
-plage_taux = np.linspace(0.5, 1.5, 301)
+plage_taux = np.linspace(0.5, 2, 501)
 plage_interets_reduits = np.array([])
 plage_interets_restants = np.array([])
 for taux in plage_taux:
